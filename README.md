@@ -31,11 +31,11 @@ git clone https://github.com/madhura276/student-crud-python.git
 cd student-crud-python
 
 2. Install required Python package:
-...bash
+```bash
 pip install mysql-connector-python
 
 3. Create the database and table in MySQL:
-...sql
+```sql
 CREATE DATABASE IF NOT EXISTS pythondb;
 USE pythondb;
 
@@ -47,7 +47,7 @@ CREATE TABLE IF NOT EXISTS student_info (
 );
 
 4. Run the program:
-...bash
+```bash
 python main.py
 
 
@@ -63,12 +63,12 @@ You can easily run this project in **Visual Studio Code**:
 python --version
 
 5. Install MySQL connector if not installed:
-...bash
+```bash
 pip install mysql-connector-python
 
 6. Ensure your MySQL database and table exist (as mentioned above).
 7. Run the program:
-...bash
+```bash
 python main.py
 
 8. Follow the menu in the terminal to perform CRUD operations on student records.
