@@ -16,12 +16,14 @@ Allows you to **Create, Read, Update, and Delete student records**.
 - mysql-connector-python
 
 ## Folder Structure
+
+```text
 ├── main.py # Menu-driven program
 ├── stu_crud.py # CRUD functions
 ├── db_config.py # Database connection setup
 ├── README.md # Project documentation
 └── .gitignore # Ignore unnecessary files
-
+```
 
 ## Setup Instructions
 
@@ -29,10 +31,12 @@ Allows you to **Create, Read, Update, and Delete student records**.
 ```bash
 git clone https://github.com/madhura276/student-crud-python.git
 cd student-crud-python
+```
 
 2. Install required Python package:
 ```bash
 pip install mysql-connector-python
+```
 
 3. Create the database and table in MySQL:
 ```sql
@@ -45,11 +49,12 @@ CREATE TABLE IF NOT EXISTS student_info (
     course VARCHAR(50),
     marks INT
 );
+```
 
 4. Run the program:
 ```bash
 python main.py
-
+```
 
 ## Run in VS Code
 
@@ -61,17 +66,17 @@ You can easily run this project in **Visual Studio Code**:
 4. Make sure Python is installed and accessible:
 ```bash
 python --version
+```
 
 5. Install MySQL connector if not installed:
 ```bash
 pip install mysql-connector-python
+```
 
 6. Ensure your MySQL database and table exist (as mentioned above).
 7. Run the program:
 ```bash
 python main.py
+```
 
 8. Follow the menu in the terminal to perform CRUD operations on student records.
-
-
-
